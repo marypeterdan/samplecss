@@ -1,0 +1,100 @@
+.clscolor
+{
+    background: lightpink;
+    text-align: center;
+}
+ 
+body,h1,h2,h3,h4,h5
+{
+    margin: 0px;
+}
+
+.clshero
+{
+    background: lawngreen;
+    margin-bottom: 50px;
+    border-bottom: 3px solid red;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+.clshero a
+
+{
+    display: none;
+    
+}
+
+.clsmask
+{
+    height: 220px;
+    background: rgb(40,100,80,0.2);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px
+}
+
+.clsrow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article img
+{
+  width:200px;
+  height: 200px;  
+ 
+} 
+
+.clstop
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article
+{
+    box-shadow: 10px 10px 10px gold
+}
+
+.clsfooter
+{
+    background: lightpink;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+
+@media (max-width: 400px)
+{
+    .clsrow
+{
+    display: flex;
+    flex-direction: column;
+}
+
+    article h3
+    {
+        display: none;
+    }
+
+
+}
+
+@media (min-width:600px) and (max-width:850px)  {
+    
+    .clsrow
+    {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    
+}
